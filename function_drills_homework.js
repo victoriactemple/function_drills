@@ -37,7 +37,7 @@ const numsGreaterThanTen = function(numsArray){
 var allGreaterThanTen = function(numsArray){
   const numsArray = [2, 4, 6, 8, 10, 14];
   let result = 0;
-  for (const i =0; i <numsArray.length; i++);
+  for (const i =0; i < numsArray.length; i++);
   if (numsArray[i] < 10) {
     return false;
   }
@@ -48,7 +48,13 @@ var allGreaterThanTen = function(numsArray){
 // Input: an array of words
 // Output: an array of all words from the first array with five or more letters
 var wordsWithAtLeastFiveLetters = function(words){
-  // Your Code Here
+  const words = ["tiger", "rhino", "giraffe", "gorilla", "lion"];
+for(const i = 0; i < words.length; i++){
+  if(words[i].length >= 5){
+    return words[i];
+  }
+}
+  return words[i];
 };
 
 // #5
@@ -57,7 +63,12 @@ var wordsWithAtLeastFiveLetters = function(words){
 //          `false` otherwise
 // Edge Case: If the array is empty, the function should return `true`.
 var allStartingWithA = function(words){
-  // Your Code Here
+  const words = ["orange", "tangerine", "pomelo", "kumquat"];
+  for (const i = 0; i < words.length; i++) {
+    if (words[i].slice(0, 1) === 'a' || words[i].slice(0, 1) === 'A');
+      return true;
+  }
+  return false;
 };
 
 // #6
@@ -65,7 +76,12 @@ var allStartingWithA = function(words){
 // Output: `true` if there are ANY words that start with the letter 'b'
 //          (case-insensitive), `false` otherwise
 var anyStartingWithB = function(words){
-  // Your Code Here
+  const words = ["bobby", "bruno", "amanda", "jeffrey", "Bradley"];
+  for (const i = 0; i < words.length; i++) {
+    if (words[i].slice(0, 1) === 'b' || words[i].slice(0, 1) === 'B');
+      return true;
+  }
+  return false;
 };
 
 // #7
@@ -75,7 +91,11 @@ var anyStartingWithB = function(words){
 //    Assume that vowels are 'a', 'e', 'i', 'o', and 'u' (NOT 'y')
 // Edge Case: If `n` is less than zero, return `null`.
 var hasAtLeastNVowels = function(word, n){
-  // Your Code Here
+const word = "cards"; 
+const n = 5;
+ if (word < )
+
+
 };
 
 // #8
@@ -118,7 +138,8 @@ var noneHaveTwoOrMoreVowels = function(words){
 // e.g. given ['cat', 'horse', 'elephant'],
 //      return { cat: 3, horse: 5, elephant: 8}
 var buildObjectFromWords = function(words){
-  // Your Code Here
+ const words  = ["sookie", "brodie", "buck", "winston"];
+ 
 };
 
 
