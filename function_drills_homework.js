@@ -7,20 +7,26 @@
 // Output: the sum of the numbers that were passed in
 // Edge Case: If the array is empty, return 0
 const sumOfNums = function(numsArray){
+  const numsArray = [2, 4, 6, 8];
   const total = 0;
   for (const i = 0; i < numsArray.lenth; i++);
-  total + numsArray[i];
+  total += numsArray[i];
 } 
 return total;
 };
-numsArray();
+
 
 // #2
 // Input: an array of numbers
 // Output: an array of the numbers from the first array that are strictly
 //         greater (i.e. greater than but not equal to) than 10
-var numsGreaterThanTen = function(numsArray){
-  // Your Code Here
+const numsGreaterThanTen = function(numsArray){
+  const numsArray = [3, 6, 9, 12];
+  let answer = 0;
+  for (const i = 0; i < numsArray.length; i++);
+   if(numsArray[i] < 10) {
+   }
+   return answer;
 };
 
 // #3
@@ -29,7 +35,13 @@ var numsGreaterThanTen = function(numsArray){
 //         `false` otherwise
 // Edge Case: If the input array is empty, the function should return `true`.
 var allGreaterThanTen = function(numsArray){
-  // Your Code Here
+  const numsArray = [2, 4, 6, 8, 10, 14];
+  let result = 0;
+  for (const i =0; i <numsArray.length; i++);
+  if (numsArray[i] < 10) {
+    return false;
+  }
+  return true;
 };
 
 // #4
